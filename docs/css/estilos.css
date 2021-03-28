@@ -1,0 +1,49 @@
+.carrusel {
+  height: calc(100vh - 57px);
+}
+
+.contenedor {
+  background: rgb(12, 12, 12);
+}
+
+.sombra {
+  -webkit-box-shadow: 2px 2px 16px 7px #000000;
+  box-shadow: 2px 2px 16px 7px #000000;
+}
+
+.background {
+  background-image: url(/docs/img/backgroundark.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contacto {
+  background: rgb(27, 27, 27);
+}
+
+a i {
+  font-size: 30px;
+  color: rgb(238, 238, 238);
+}
+.item {
+  transition: 0.5s ease-in-out;
+}
+.item:hover {
+  filter: brightness(80%);
+}
+img {
+  max-width: 100%;
+}
+
+.img1 {
+  object-fit: cover;
+}
+.col img {
+  -webkit-box-shadow: 2px 2px 16px 7px #000000b7;
+  box-shadow: 2px 2px 16px 7px #000000ab;
+  cursor: pointer;
+}
+
+#gallery-modal .modal-img {
+  width: 100%;
+}

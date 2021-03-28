@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fotografía</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/estilos.css">
+  <script src="https://kit.fontawesome.com/63c9a655d3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark contenedor">
+    <div class="container">
+      <a class="navbar-brand" href="#">Fotografía</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contáctame</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Portada -->
+  <div id="carouselExampleCaptions" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+
+      <div class="carousel-item active carrusel">
+        <img src="./img/camera.jpg" class="gallery-item" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Innovamos</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita.</p>
+        </div>
+      </div>
+      <div class="carousel-item carrusel">
+        <img src="./img/city.jpg" class="gallery-item" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Somos profesionales</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item carrusel">
+        <img src="./img/stars.jpg" class="gallery-item" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Ofrecemos el mejor servicio</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque?</p>
+        </div>
+      </div>
+
+    </div>
+    <span id='about'></span>
+
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+  </div>
+
+  <!-- Portada mobile -->
+  <div class="contenedor">
+    <img src="./img/camera.jpg" alt="" class='w-100 d-md-none'>
+  </div>
+
+  <!-- About -->
+  <main>
+    <div class="p-5 text-light contenedor d-flex justify-content-center">
+      <div class="row sombra p-4 container">
+        <div class="col-md-6 d-flex align-items-center">
+          <h1 class='display-5 titulo'>¿Quien soy?</h1>
+        </div>
+        <div class="col-md-6">
+          <p class='parrafo'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem cupiditate aut hic
+            natus sit accusantium.
+            Facere, non id ratione sunt laudantium, dolorum, minima officiis aliquid libero debitis consectetur quae
+            omnis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt iste ipsum iure, deleniti ducimus
+            autem
+            sed molestiae soluta nesciunt voluptate enim magni animi corporis vero ea culpa ratione ex ab!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Galeria -->
+    <div class="background min-vh-100" id='proyectos'>
+      <div class="container-lg">
+        <h3 class="h1 display-5 text-center text-light">Mi trabajo</h3>
+        <div class="row gy-4 row-cols-1 row-cols-sm2 row-cols-md-3">
+
+          <div class="col">
+            <img src="./img/montaña.jpg" alt="" class='gallery-item'>
+          </div>
+
+          <div class="col">
+            <img src="./img/snow.jpg" alt="" class='gallery-item'>
+          </div>
+
+          <div class="col">
+            <img src="./img/trees.jpg" alt="" class='gallery-item'>
+          </div>
+          <div class="col">
+            <img src="./img/neblina.jpg" alt="" class='gallery-item'>
+          </div>
+          <div class="col">
+            <img src="./img/woods.jpg" alt="" class='gallery-item'>
+          </div>
+          <div class="col">
+            <img src="./img/aureola.jpg" alt="" class='gallery-item'>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="./img/montaña.jpg" alt="" class='modal-img'>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Contacto -->
+    <div class="contacto p-2" id='contacto'>
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-4 bg-dark shadow p-3">
+            <h3 class='text-center text-light'>Contáctame</h3>
+            <form action="" class="form-group">
+              <input type="text" class='form-control my-3' placeholder='Inserta tu nombre'>
+              <input type="email" class='form-control my-3' placeholder='Inserta tu email'>
+              <textarea class='form-control my-3'>Deja tu mensaje</textarea>
+              <div class="d-grid">
+                <input type="submit" class='btn btn-secondary'>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+
+
+  <!-- Footer -->
+  <footer class='bg-dark'>
+    <div class="container p-3">
+      <div class="social d-flex justify-content-center">
+        <a href="#"><i class='fab fa-facebook p-1'></i></a>
+        <a href="#"><i class='fab fa-instagram p-1'></i></a>
+        <a href="#"><i class='fab fa-twitter p-1'></i></a>
+      </div>
+      <p class='text-light text-center'>Todos los derechos revervados 2021</p>
+    </div>
+
+  </footer>
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+  <script src='js/main.js'></script>
+</body>
+
+</html>
